@@ -1,0 +1,61 @@
+/* 2010 (c) | ez-css.org
+ * ez-proto.css :: version 1.0 :: 01012010
+ *
+ * For rapid prototyping. 
+ * With this styles sheet, use the snippets from http://www.ez-css/rapid_prototyping 
+*/
+
+/* 
+ * This wrapper, first child of body, is used to wrap "ez-css" modules. 
+ * It will auto-center if it is given a width smaller than the width of the viewport.
+ * Position relative is used to create a stacking context from the start (to prevent z-index issues). 
+ */
+
+.ez-mw {
+	margin-right: auto;
+	margin-left: auto;
+	text-align: left;
+	position :relative;
+	z-index: 1;
+}
+
+/*
+ * to make sure modules clear previous containers
+ */
+
+.ez-wr {clear: left;}
+
+.ez-wr:after,
+.ez-box:after {
+      content: ".";
+      display: block;
+      height: 0;
+      clear: both;
+      visibility: hidden;
+}
+
+/*
+ * column floated left 
+ */
+
+.ez-fl {
+	float: left;
+}
+
+/* 
+ * column floated right 
+ */
+
+.ez-fr {
+	float: right;
+}
+
+/*
+ * 5 default widths for 1/4, 1/3, 1/2, 2/3 and 3/4 columns
+ */
+
+.ez-25 {width:25%;}
+.ez-33 {width:33.33%;}
+.ez-50 {width:50%;}
+.ez-66 {width:66.66%;}
+.ez-75 {width:75%;}
