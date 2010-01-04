@@ -1,0 +1,9 @@
+<!-- Module 2B -->
+<div class="ez-wr">
+<div class="ez-fr ez-negml ez-50">
+<div class="ez-box">.1.</div>
+</div>
+<fieldset>
+<div class="ez-box">.2.</div>
+</fieldset>
+</div>

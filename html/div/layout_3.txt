@@ -1,0 +1,17 @@
+<!-- Layout 3 -->
+<div class="ez-wr">
+<div class="ez-box">.header.</div>
+<!-- Module 3A -->
+<div class="ez-wr">
+<div class="ez-fl  ez-negmx ez-33">
+<div class="ez-box">.1.</div>
+</div>
+<div class="ez-fl ez-negmr ez-33">
+<div class="ez-box">.2.</div>
+</div>
+<div class="ez-last ez-oh">
+<div class="ez-box">.3.</div>
+</div>
+</div>
+<div class="ez-box">.footer.</div>
+</div>
