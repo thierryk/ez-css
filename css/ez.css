@@ -1,5 +1,5 @@
-/* 2010 (c) | ez-css.org
- * ez.css :: version 1.0 :: 01012010
+/* 2009 - 2010 (c) | ez-css.org
+ * ez.css ::  version 1.1 :: 01152010
  *
  * This styles sheet caters for IE 5 browsers. 
  * With this styles sheet, use the snippets from http://www.ez-css/layouts 
@@ -155,13 +155,15 @@ body {text-align: center;}
 	margin-right:-4px;
 }
 
-/* 
+/*
+ * (star html hack is used here because of the cascade, to override "* html .ez-fl")
  * same as above, but for these elements:
  * - column 1 of Module 3A,
  * - column 1 of Module 4A,
  * - column 2 of Module 4A 
  */
  
+* html .ez-negmx,
 .ez-negmx {
 	margin-right: -1px;
 }
