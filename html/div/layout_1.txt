@@ -1,6 +1,6 @@
 <!-- Layout 1 -->
 <div class="ez-wr">
-<div class="ez-box">.header.</div>
-<div class="ez-box">.content.</div>
-<div class="ez-box">.footer.</div>
+	<div class="ez-box">.header.</div>
+	<div class="ez-box">.content.</div>
+	<div class="ez-box">.footer.</div>
 </div>

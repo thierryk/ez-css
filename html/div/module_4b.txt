@@ -1,19 +1,19 @@
 <!-- Module 4B -->
 <div class="ez-wr">
-<div class="ez-fl ez-negmr ez-50">
-<div class="ez-fl ez-negmr ez-50">
-<div class="ez-box">.1.</div>
-</div>
-<div class="ez-last ez-oh">
-<div class="ez-box">.2.</div>
-</div>
-</div> 
-<div class="ez-last ez-oh">
-<div class="ez-fl ez-negmr ez-50">
-<div class="ez-box">.3.</div>
-</div>
-<div class="ez-last ez-oh">
-<div class="ez-box">.4.</div>
-</div>
-</div>
+	<div class="ez-fl ez-negmr ez-50">
+		<div class="ez-fl ez-negmr ez-50">
+			<div class="ez-box">.1.</div>
+		</div>
+		<div class="ez-last ez-oh">
+			<div class="ez-box">.2.</div>
+		</div>
+	</div> 
+	<div class="ez-last ez-oh">
+		<div class="ez-fl ez-negmr ez-50">
+			<div class="ez-box">.3.</div>
+		</div>
+		<div class="ez-last ez-oh">
+			<div class="ez-box">.4.</div>
+		</div>
+	</div>
 </div>
