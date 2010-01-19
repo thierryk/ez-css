@@ -1,16 +1,9 @@
 /* 2009 -2010 (c) | ez-css.org
- * ez-plug.css :: version 1.0 :: 01152010
+ * ez-plug.css :: version 1.1 :: 01182010
  *
  * This styles can be added to any document (there is no styling of HTML elements) 
  * With this styles sheet, use the code snippets from http://www.ez-css.org/layouts 
  */
-
-/*
- * For IE
- * this should prevent long strings (i.e., URLs) to break the layouts (by increasing the with of containers). 
- */
-
-* html .ez-wr {word-wrap:break-word;}
 
 /*
  * this is the clearfix metod

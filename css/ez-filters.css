@@ -1,5 +1,5 @@
 /* 2009 - 2010 (c) | ez-css.org
- * ez-filters.css :: version 1.0 :: 01152010
+ * ez-filters.css :: version 1.1 :: 01182010
  *
  * This styles sheet caters for IE 5 browsers. It uses a CSS hack and won't validate
  * With this styles sheet, use the code snippets from http://www.ez-css.org/layouts 
@@ -8,10 +8,9 @@
 /*
  * auto-centering in IE 5
  * we reset this value in the next rule so content is left aligned. 
- * word-wrap is for IE, it should prevent long strings (i.e., URLs) to break the layouts (by increasing the with of containers). 
  */
  
-body {text-align: center;_word-wrap:break-word;}
+body {text-align: center;}
 
 /* 
  * This wrapper, first child of body, is used to wrap "ez-css" modules. 

@@ -1,5 +1,5 @@
 /* 2009 - 2010 (c) | ez-css.org
- * ez.css ::  version 1.1 :: 01152010
+ * ez.css ::  version 1.2 :: 01182010
  *
  * This styles sheet caters for IE 5 browsers. 
  * With this styles sheet, use the snippets from http://www.ez-css.org/layouts 
@@ -11,13 +11,6 @@
  */
  
 body {text-align: center;}
-
-/*
- * For IE
- * this should prevent long strings (i.e., URLs) to break the layouts (by increasing the with of containers). 
- */
-
-* html body {word-wrap:break-word;}
 
 /* 
  * This wrapper, first child of body, is used to wrap "ez-css" modules. 
