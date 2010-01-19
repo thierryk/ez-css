@@ -1,9 +1,9 @@
 <!-- Module 2A -->
 <div class="ez-wr">
-<div class="ez-fl ez-negmr ez-50">
-<div class="ez-box">.1.</div>
-</div>
-<fieldset>
-<div class="ez-box">.2.</div>
-</fieldset>
+	<div class="ez-fl ez-negmr ez-50">
+		<div class="ez-box">.1.</div>
+	</div>
+	<fieldset>
+		<div class="ez-box">.2.</div>
+	</fieldset>
 </div>

@@ -1,12 +1,12 @@
 <!-- Module 3B -->
 <div class="ez-wr">
-<div class="ez-fl ez-negmr ez-33">
-<div class="ez-box">.1.</div>
-</div>
-<div class="ez-fr ez-negml ez-33">
-<div class="ez-box">.2.</div>
-</div>
-<fieldset>
-<div class="ez-box">.3.</div>
-</fieldset>
+	<div class="ez-fl ez-negmr ez-33">
+		<div class="ez-box">.1.</div>
+	</div>
+	<div class="ez-fr ez-negml ez-33">
+		<div class="ez-box">.2.</div>
+	</div>
+	<fieldset>
+		<div class="ez-box">.3.</div>
+	</fieldset>
 </div>

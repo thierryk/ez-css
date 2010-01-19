@@ -1,14 +1,14 @@
 <!-- Layout 2 -->
 <div class="ez-wr">
-<div class="ez-box">.header.</div>
-<!-- Module 2A -->
-<div class="ez-wr">
-<div class="ez-fl ez-negmr ez-50">
-<div class="ez-box">.1.</div>
-</div>
-<fieldset>
-<div class="ez-box">.2.</div>
-</fieldset>
-</div>
-<div class="ez-box">.footer.</div>
+	<div class="ez-box">.header.</div>
+	<!-- Module 2A -->
+	<div class="ez-wr">
+		<div class="ez-fl ez-negmr ez-50">
+			<div class="ez-box">.1.</div>
+		</div>
+		<fieldset>
+			<div class="ez-box">.2.</div>
+		</fieldset>
+	</div>
+	<div class="ez-box">.footer.</div>
 </div>
