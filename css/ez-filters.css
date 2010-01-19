@@ -64,11 +64,11 @@ body {text-align: center;_word-wrap:break-word;}
 /*
  * the last DIV in the HTML flow (a column) must create a new block-formatting context.
  * by default, we rely on "overflow:hidden", but if this creates an issue with your design, then try one of these classes instead: 
- * ez-last-oa
- * ez-last-dt 
- * ez-last-it
- * ez-last-tc
- * ez-last-ib
+ * ez-oa
+ * ez-dt 
+ * ez-it
+ * ez-tc
+ * ez-ib
  */
  
 .ez-oh {
