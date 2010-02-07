@@ -1,8 +1,8 @@
 /* 2009 - 2010 (c) | ez-css.org
  * ez.css ::  version 1.2 :: 01182010
  *
- * This styles sheet caters for IE 5 browsers. 
- * With this styles sheet, use the snippets from http://www.ez-css.org/layouts 
+ * This style sheet caters for IE 5 browsers. 
+ * With this style sheet, use the snippets from http://www.ez-css.org/layouts 
 */
 
 /*
@@ -34,7 +34,7 @@ body {text-align: center;}
 .ez-wr {clear: left;}
 
 /*
- * this is the clearfix metod
+ * this is the clearfix method
  * we rely on this to contain floats in "stand-alone" modules 
  */
  
@@ -61,7 +61,7 @@ body {text-align: center;}
 /* end hide from IE-mac */
 
 /*
- * the last DIV in the HTML flow (a column) must create a new block-formatting context.
+ * the last DIV in the HTML flow (a column) must create a new block formatting context.
  * by default, we rely on "overflow:hidden", but if this creates an issue with your design, then try one of these classes instead: 
  * ez-oa
  * ez-dt 
@@ -118,7 +118,7 @@ body {text-align: center;}
 }
 
 /*
- * every floated column in a module or layout need a width
+ * every floated column in a module or layout needs a width
  * here we have 5 default values: 1/4, 1/3, 1/2, 2/3 and 3/4
  */
 
@@ -129,7 +129,7 @@ body {text-align: center;}
 .ez-75 {width: 75%;}
 
 /* 
- * the following classes are used to make columns that are sibblings overlap by 1 pixel (to vertically align 1 pixel borders between containers)
+ * the following classes are used to make columns that are siblings overlap by 1 pixel (to vertically align 1 pixel borders between containers)
  * for this to work, this class must be applied to the following elements: 
  * - column 1 of Module 2A, 
  * - column 2 of Module 3A,
