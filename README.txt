@@ -4,7 +4,7 @@ Create complex layouts with ez-css; a light, easy to use, CSS framework.
 === Demo ===
 
   http://www.ez-css.org/demo_page
-	http://www.ez-css.org/demo-proto_page
+  http://www.ez-css.org/demo-proto_page
 
 === Download ===
 
