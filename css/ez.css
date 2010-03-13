@@ -1,5 +1,5 @@
 /* 2009 - 2010 (c) | ez-css.org
- * ez.css ::  version 1.2 :: 01182010
+ * ez.css ::  version 1.3 :: 03132010
  *
  * This style sheet caters for IE 5 browsers. 
  * With this style sheet, use the snippets from http://www.ez-css.org/layouts 
@@ -16,6 +16,7 @@ body {text-align: center;}
  * This wrapper, first child of body, is used to wrap "ez-css" modules. 
  * It will auto-center if it is given a width smaller than the width of the viewport.
  * Position relative is used to create a stacking context from the start (to prevent z-index issues). 
+ * overflow:hidden is used to create a block formatting context, but if you give this element a width you can replace this declaration with display:inline-block
  */
 
 .ez-mw {
@@ -25,6 +26,7 @@ body {text-align: center;}
 	position :relative;
 	z-index: 1;
 	text-align: left;
+	overflow: hidden;
 }
 
 /*

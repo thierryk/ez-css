@@ -1,5 +1,5 @@
 /* 2009 - 2010 (c) | ez-css.org
- * ez-proto.css :: version 1.0 :: 01012010
+ * ez-proto.css :: version 1.1 :: 03132010
  *
  * For rapid prototyping. 
  * With this style sheet, use the snippets from http://www.ez-css.org/rapid_prototyping 
@@ -9,6 +9,7 @@
  * This wrapper, first child of body, is used to wrap "ez-css" modules. 
  * It will auto-center if it is given a width smaller than the width of the viewport.
  * Position relative is used to create a stacking context from the start (to prevent z-index issues). 
+ * overflow:hidden is used to create a block formatting context, but if you give this element a width you can replace this declaration with display:inline-block
  */
 
 .ez-mw {
@@ -17,6 +18,7 @@
 	text-align: left;
 	position :relative;
 	z-index: 1;
+	overflow: hidden;
 }
 
 /*
