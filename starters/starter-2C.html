@@ -1,0 +1,179 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>starter 2C: Two columns with header and footer, sidebar on the right hand side, main content comes first</title>
+<style type="text/css">
+/* 2009 - 2010 (c) | ez-css.org
+ * ez-start-2C ::  version 1.0 (03142010)
+ *
+ * Two columns with header and footer, sidebar on the right hand side, main content comes first. 
+ *
+ *
+ * You should replace the following rule with your own reset or base styles sheet
+ * visit: http://carsonified.com/blog/design/setting-rather-than-resetting-default-styling
+ */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*
+ * To set the width of the main wrapper
+ */
+ 
+#wrapper {width: 750px;}
+
+/*
+ * You can use this wrapper for the faux-column technique
+ * Check http://www.alistapart.com/articles/fauxcolumns/
+ */
+
+#body {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #555;
+	border-top:1px solid #555;
+}
+
+/*
+ * This element needs a width
+ */
+
+#article {
+	width: 70%; 
+	padding:15px 0 15px 15px;
+	border-left: 1px solid #555;
+}
+
+/*
+ * Unlike the right column (#article), this element does *not* need a width
+ */
+
+#aside {
+	padding: 15px 15px 15px 0;
+	border-right: 1px solid #555;
+}
+
+/**********************************************************************************
+ Below this comment are the core rules, there should be no need to edit any of them
+ **********************************************************************************
+ *
+ * auto-centering in IE 5
+ * we reset this value in the next rule so content is left aligned. 
+ */
+ 
+body {text-align: center;}
+
+/* 
+ * margin "auto" is to center this element (we set the width in a separate rule near the top of this styles sheet).
+ * "text-align" is to reset the declaration from "body".
+ * "inline:block" is to create a block-formatting context (the "width" does that in IE).
+ */
+
+#wrapper {
+	margin-right: auto;
+	margin-left: auto;
+	text-align: left;
+	display: inline-block;
+}
+
+/*
+ * this is the clearfix method
+ * we rely on this to contain floats in these elements 
+ */
+ 
+#header:after,
+#body:after,
+#footer:after {
+      content: ".";
+      display: block;
+      height: 0;
+      clear: both;
+      visibility: hidden;
+}
+
+/*
+ * hacks for IE
+ * "min-height" triggers "hasLayout" in IE 7, 
+ * "height" is the trigger for IE 5 and 6.
+ */
+
+#header,
+#body,
+#aside,
+#footer {min-height: 0;}    
+* html #header,
+* html #body,
+* html #aside,
+* html #footer {height: 1%;}  
+
+/*
+ * this element must create a new block formatting context.
+ * by default, we rely on "overflow:hidden", but if this creates an issue with your design, then apply to this element one of the following rules 
+ * ez-oa
+ * ez-dt 
+ * ez-it
+ * ez-tc
+ * ez-ib
+ */
+ 
+#aside {overflow: hidden;}
+
+/*
+ * rules to apply to the second column (#article) if the styling above (overflow:hidden) creates issues with your design
+ */
+
+.ez-oa {overflow: visible; overflow: auto;}
+.ez-dt {overflow: visible; display: table;}
+.ez-it {overflow: visible; display: inline-table;}
+.ez-tc {overflow: visible; display: table-cell;}
+.ez-ib {overflow: visible; display: inline-block;}
+
+/* 
+ * 2nd column
+ * the negative margin is to allow the border of the two columns to overlap
+ */
+
+#article {
+	float: right;
+	margin-left: -1px; 
+}
+
+/* 
+ * the following fixes the "3px jog bug"
+ */
+
+* html #article {margin-left: -4px;}
+
+/**********************************************************************************
+ ***   The above are core rules, there should be no need to edit any of them    ***
+**********************************************************************************/
+</style>
+</head>
+<body>
+<!-- ez-start-2C -->
+<div id="wrapper">
+  <div id="header">
+		<h1>#header</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mollis facilisis viverra. Curabitur luctus, nibh ac rhoncus ultrices, turpis mauris mattis dui, quis pharetra odio orci vitae risus. Nunc ultricies gravida facilisis. Pellentesque ante mauris, blandit id condimentum non, tristique non urna. Integer nec erat eros. Curabitur ullamcorper semper est, ut egestas est bibendum in. Nulla scelerisque diam eget sapien sollicitudin accumsan. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus pharetra mauris a mattis.</p> 
+	</div>
+  <div id="body">
+		<div id="article">
+			<h2>1: #article</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mollis facilisis viverra. Curabitur luctus, nibh ac rhoncus ultrices, turpis mauris mattis dui, quis pharetra odio orci vitae risus. Nunc ultricies gravida facilisis. Pellentesque ante mauris, blandit id condimentum non, tristique non urna. Integer nec erat eros. Curabitur ullamcorper semper est, ut egestas est bibendum in. Nulla scelerisque diam eget sapien sollicitudin accumsan. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus pharetra mauris a mattis. Morbi gravida velit nec lectus semper vitae porta sapien semper. Sed blandit tempus tristique. Aenean libero enim, gravida eget egestas et, dapibus in odio. Aenean nisl nunc, ornare porttitor aliquam non, lacinia in leo. Cras viverra mi in justo ultrices ac mattis mi imperdiet. Proin at rhoncus libero. Mauris quis urna eros, dapibus porta lectus.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mollis facilisis viverra. Curabitur luctus, nibh ac rhoncus ultrices, turpis mauris mattis dui, quis pharetra odio orci vitae risus. Nunc ultricies gravida facilisis. Pellentesque ante mauris, blandit id condimentum non, tristique non urna. Integer nec erat eros. Curabitur ullamcorper semper est, ut egestas est bibendum in. Nulla scelerisque diam eget sapien sollicitudin accumsan. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus pharetra mauris a mattis. Morbi gravida velit nec lectus semper vitae porta sapien semper. Sed blandit tempus tristique. Aenean libero enim, gravida eget egestas et, dapibus in odio. Aenean nisl nunc, ornare porttitor aliquam non, lacinia in leo. Cras viverra mi in justo ultrices ac mattis mi imperdiet. Proin at rhoncus libero. Mauris quis urna eros, dapibus porta lectus.</p>			
+		</div>
+  	<div id="aside">
+			<h2>2: #aside</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mollis facilisis viverra. Curabitur luctus, nibh ac rhoncus ultrices, turpis mauris mattis dui, quis pharetra odio orci vitae risus. Nunc ultricies gravida facilisis. Pellentesque ante mauris, blandit id condimentum non, tristique non urna. Integer nec erat eros. Curabitur ullamcorper semper est, ut egestas est bibendum in. Nulla scelerisque diam eget sapien sollicitudin accumsan. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus pharetra mauris a mattis. Morbi gravida velit nec lectus semper vitae porta sapien semper. Sed blandit tempus tristique.</p> 
+     </div>
+  </div>
+  <div id="footer">
+			<h2>#footer</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mollis facilisis viverra. Curabitur luctus, nibh ac rhoncus ultrices, turpis mauris mattis dui, quis pharetra odio orci vitae risus. Nunc ultricies gravida facilisis. Pellentesque ante mauris, blandit id condimentum non, tristique non urna. Integer nec erat eros. Curabitur ullamcorper semper est, ut egestas est bibendum in. Nulla scelerisque diam eget sapien sollicitudin accumsan. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus pharetra mauris a mattis. Morbi gravida velit nec lectus semper vitae porta sapien semper. Sed blandit tempus tristique. Aenean libero enim, gravida eget egestas et, dapibus in odio. Aenean nisl nunc, ornare porttitor aliquam non, lacinia in leo. Cras viverra mi in justo ultrices ac mattis mi imperdiet. Proin at rhoncus libero. Mauris quis urna eros, dapibus porta lectus.</p> 
+	</div>
+</div>
+</body>
+</html>
