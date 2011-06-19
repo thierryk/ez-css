@@ -38,11 +38,11 @@ Create complex layouts with ez-css; a light, easy to use, CSS framework.
   
     2. Insert the style sheet or rules in your document's <head>:
 
-       <link rel="stylesheet" type="text/css" media="screen,projection" href="/css/ez-min.css">
+       <link rel="stylesheet"  media="screen,projection" href="/css/ez-min.css">
 
        or
 
-       <style type="text/css">
+       <style>
        /* all rules from ez-min.css go below */
        ...
        <style>
