@@ -86,7 +86,7 @@ or
 ## Licensed under the MIT and BSD
 
    * [MIT_License](http://ez-css.org/MIT_License)
-   * [BSD_License](http://ez-css.org/BSD_License
+   * [BSD_License](http://ez-css.org/BSD_License)
 
 
 Thanks, 
