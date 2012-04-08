@@ -35,9 +35,9 @@ Create complex layouts with ez-css; a light, easy to use, CSS framework.
 
 ###  From scratch:
 
-   1. Get the style sheet: [http://www.ez-css.org/downloads](http://www.ez-css.org/downloads)
+1. Get the style sheet: [http://www.ez-css.org/downloads](http://www.ez-css.org/downloads)
 
-   2. Insert the style sheet or rules in your document's &lt;head&gt;:
+2. Insert the style sheet or rules in your document's &lt;head&gt;:
 
         <link rel="stylesheet"  media="screen,projection" href="/css/ez-min.css">
 
@@ -50,16 +50,16 @@ or
          ...
         <style>
 	
-   3. Include the markup to create the layout you need:
+3. Include the markup to create the layout you need:
 
 - [http://www.ez-css.org/layouts](http://www.ez-css.org/layouts)
 - [http://www.ez-css.org/rapid_prototyping](http://www.ez-css.org/rapid_prototyping)
   
-   4. Edit the class name of the main wrapper and set the width of your columns:
-
-- Check the [how-to page](http://www.ez-css.org/how-to)
+4. Edit the class name of the main wrapper and set the width of your columns
 	
-   5. Read these pages for more info:
+5. Read these pages for more info:
+
+- [HOW-TO](http://www.ez-css.org/how-to)
 
 - [FAQ](http://www.ez-css.org/faq)
 	
@@ -67,13 +67,11 @@ or
 
 ###  Using a template:
 
-   1. Choose the layout of your choice:
-
-- [http://www.ez-css.org/css_templates](http://www.ez-css.org/css_templates)
+1. Choose the layout of your choice: [http://www.ez-css.org/css_templates](http://www.ez-css.org/css_templates)
 				
-   2. Save the HTML file locally (it contains the styles sheet)
+2. Save the HTML file locally (it contains the styles sheet)
 		
-   3. Insert your content and customize the page further
+3. Insert your content and customize the page further
 
 ## Contribute
 
