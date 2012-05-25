@@ -1,5 +1,5 @@
 /* 2009 - 2012 (c) | ez-css.org
- * ez-filters.css :: version 1.3 :: 04082012
+ * ez-filters.css :: version 1.4 :: 05252012
  *
  * This style sheet caters for IE 5 browsers. It uses a CSS hack and won't validate
  * With this style sheet, use the code snippets from http://www.ez-css.org/layouts 
@@ -42,7 +42,7 @@ body {text-align: center;}
  
 .ez-wr:after,
 .ez-box:after {
-      content: ".";
+      content: "";
       display: block;
       height: 0;
       clear: both;
