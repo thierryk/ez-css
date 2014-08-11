@@ -1,5 +1,5 @@
-/* 2009 -2010 (c) | ez-css.org
- * ez-plug.css :: version 1.1 :: 01182010
+/* 2009 -2012 (c) | ez-css.org
+ * ez-plug.css :: version 1.3 :: 05252012
  *
  * This style sheet can be added to any document (there is no styling of HTML elements) 
  * With this style sheet, use the code snippets from http://www.ez-css.org/layouts 
@@ -12,11 +12,11 @@
  
 .ez-wr:after,
 .ez-box:after {
-      content: ".";
+      content: "";
       display: block;
       height: 0;
       clear: both;
-      visibility: hidden;
+      overflow: hidden;
 }
 
 /*
